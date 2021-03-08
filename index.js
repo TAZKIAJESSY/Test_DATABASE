@@ -9,3 +9,6 @@ app.get("/users", async (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server started in port: ${PORT}`));
+
+//terminnal run: nodemon index.js
+//browser run: http://localhost:4000/users
